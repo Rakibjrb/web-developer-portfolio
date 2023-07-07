@@ -30,19 +30,24 @@ button{
 }
 
 /*header area css*/
+#header{
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 20px 0 0 0;
+}
 
 /*nav bar area css*/
 #header .header_nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 140px;
 }
 #header .header_nav .logo h3{
     color: #181818;
     font-size: 45px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
 }
 #header .header_nav ul{
     list-style: none;
@@ -60,9 +65,6 @@ button{
     color: #474747;
     transition: .5s;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 #header .header_nav ul li a:hover{
     cursor: pointer;
@@ -70,11 +72,55 @@ button{
 }
 #header .header_nav ul li button{
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    padding: 18px 36px;
+    padding: 14px 36px;
     border: none;
     text-align: center;
     border-radius: 5px;
+}
+
+/*banner area css*/
+#header .banner{
+    padding: 80px 30px 0 140px;
+    display: flex;
+    justify-content: space-between;
+}
+#header .banner .banner_content{
+    width: 575px;
+    padding-top: 60px;
+}
+#header .banner .banner_content .name_title{
+    font-size: 45px;
+    font-weight: 600;
+}
+#header .banner .banner_content .name{
+    font-size: 65px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+#header .banner .banner_content p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+#header .banner .banner_content button{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+#header .banner .banner_content .contact{
+    margin-left: 15px;
+    background: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+#header .banner .banner_content .contact:hover{
+    margin-left: 15px;
+    background: #ccc;
+    color: #000;
+}
+#header .banner .hardy_pic{
+    width: 410px;
 }
