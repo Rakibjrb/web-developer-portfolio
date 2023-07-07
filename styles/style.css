@@ -1,0 +1,80 @@
+/* important */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* default styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    transition: .5s;
+    cursor: pointer;
+}
+.text-primary{
+    color: #474747;
+}
+.primary_color{
+    color: #FD6E0A;
+}
+.btn_primary{
+    background: #FD6E0A;
+    color: #fff;
+    border: none;
+}
+.btn_primary:hover{
+    background: #ccc;
+    color: #000;
+}
+
+/*header area css*/
+
+/*nav bar area css*/
+#header .header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .header_nav .logo h3{
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#header .header_nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#header .header_nav ul li{
+    margin-right: 50px;
+}
+#header .header_nav ul li:last-child{
+    margin-right: 0;
+}
+#header .header_nav ul li a{
+    text-decoration: none;
+    color: #474747;
+    transition: .5s;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#header .header_nav ul li a:hover{
+    cursor: pointer;
+    color: #FD6E0A;
+}
+#header .header_nav ul li button{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px 36px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+}
