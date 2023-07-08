@@ -29,6 +29,12 @@ button {
     background: #FD6E0A;
     color: #fff;
     border: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 36px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .btn_primary:hover {
@@ -224,4 +230,38 @@ button {
 }
 #what_i_do .work_row .work_div .work_div_title{
     margin: 30px 0 20px;
+}
+
+/* summery of resume section styles*/
+#resume {
+    max-width: 1080px;
+    margin: 100px auto 0;
+}
+#resume .resume_title{
+    margin-bottom: 100px;
+}
+#resume .section_flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+#resume .section_flex .resume_row .resume_row_title{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+#resume .section_flex .resume_row .resume_content{
+    width: 511px;
+}
+#resume .section_flex .resume_row .second_div{
+    margin: 30px 0;
+    padding: 30px 0;
+    border-top: 1px solid #474747;
+    border-bottom: 1px solid #474747;
+}
+#resume .section_flex .resume_row p{
+    margin-top: 20px;
+}
+#resume .btn_div{
+    text-align: center;
+    margin-top: 69px;
 }
