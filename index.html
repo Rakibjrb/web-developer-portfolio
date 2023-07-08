@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Developer Portfolio website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
@@ -31,8 +32,8 @@
                 <h1 class="name">Mary Hardy</h1>
                 <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society
                     behaved moments.</p>
-                <button class="btn_primary">Download CV</button>
-                <button class="contact btn_primary">Contact</button>
+                <button class="btn_primary"><i class="fa-solid fa-download"></i> Download CV</button>
+                <button class="contact btn_primary"><i class="fa-solid fa-phone"></i> Contact</button>
             </div>
             <img class="hardy_pic" src="./images/hardy.png" alt="mary hardy picture here">
         </div>
@@ -82,7 +83,7 @@
                     <p class="work_div_desc text-primary">List skill/technologies here. You can change the icon above to
                         any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                 </div>
-                <div class="work_div">
+                <div class="work_div reactdiv">
                     <img src="./images/icons/react.png" alt="react picture">
                     <h3 class="work_div_title">React</h3>
                     <p class="work_div_desc text-primary">List skill/technologies here. You can change the icon above to
@@ -150,14 +151,32 @@
                     </div>
                 </div>
             </div>
-            <div class="btn_div"><button class="btn_primary">Download CV</button></div>
+            <div class="btn_div"><button class="btn_primary"><i class="fa-solid fa-download"></i> Download CV</button></div>
         </section>
 
     </main>
 
     <!--- footer area -->
-    <footer>
-
+    <footer id="footer">
+        <div class="footer_row">
+            <div class="footer_cols">
+                <h3 class="text-primary footer_title">Let's Connect</h3>
+                <p class="text-primary">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <ul class="social_icons">
+                    <li><a href=""><img src="./images/icons/facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="./images/icons/insta.png" alt=""></a></li>
+                    <li><a href=""><img src="./images/icons/twitter.png" alt=""></a></li>
+            </div>
+            <div class="footer_cols">
+                <h3 class="text-primary footer_title">Let's Message me</h3>
+                <form>
+                    <input type="text" name="" id="" placeholder="Enter Your Name" required>
+                    <input type="email" name="" id="" placeholder="Enter Your Email" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here" required></textarea>
+                    <input class="btn_primary form_btn" type="submit" value="Send" name="" id="">
+                </form>
+            </div>
+        </div>
     </footer>
 
 </body>
